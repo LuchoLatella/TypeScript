@@ -42,3 +42,13 @@ class Vaca implements Animal {
     }
 }
 
+// 3. Función describirAnimal
+function describirAnimal(animal: Animal): void {
+    console.log(`El animal ${animal.nombre} hace ${animal.gritar()}`);
+}
+
+// 4. Crear las constantes con sus tipos correspondientes
+
+const perro: Perro = new Perro("Firulais");
+const gato: Gato = new Gato("Michi");
+const vaca: Vaca = new Vaca("Lola");
